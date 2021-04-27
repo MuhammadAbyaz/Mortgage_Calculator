@@ -35,8 +35,7 @@ public class Main {
         double mortgage = (int)principal * (numerator / denominator);
         NumberFormat dollar = NumberFormat.getCurrencyInstance();
         String mortgageResult = dollar.format(mortgage);
-        System.out.print("Mortgage: " );
-        System.out.print(mortgageResult);
+        System.out.print("Mortgage: " + mortgageResult);
     }
 }
 
